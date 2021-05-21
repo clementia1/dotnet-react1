@@ -7,9 +7,9 @@ import '@fontsource/noto-sans-tc';
 
 function App() {
   const [initialUsers, setInitialUsers] = useState([]);
-  const [popupVisible, setPopupVisible] = useState(false);
   const [users, setUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState({});
+  const [popupVisible, setPopupVisible] = useState(false);
 
   useEffect(() => {
     setUsers(userData);

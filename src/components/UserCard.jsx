@@ -3,7 +3,7 @@ export default function UserCard(props) {
     return (
         <div className="user-card" onClick={props.showUser}>
             <div className="user-picture-container">
-                <img className="user-picture" src={props.user.picture} />
+                <img className="user-picture" src={props.user.picture} alt={props.user.name} />
             </div>
             <div className="user-info-container">
                 <div className="user-info-bio">
